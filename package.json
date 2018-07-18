@@ -2,10 +2,11 @@
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
   "dependencies": {
+    "axios": "latest",
     "expo": "^28.0.0",
+    "native-base": "latest",
     "react": "16.3.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-28.0.0.tar.gz",
-    "native-base": "latest",
-    "axios": "latest"
+    "react-native-vector-icons": "^4.6.0"
   }
 }

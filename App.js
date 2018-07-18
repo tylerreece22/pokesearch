@@ -1,6 +1,5 @@
 import React from 'react';
-import {StyleSheet, Text, View, Platform, Image, ImageBackground} from 'react-native';
-import {Button} from 'native-base';
+import {View} from 'react-native';
 import Landing from "./src/Landing";
 import Search from "./src/Search";
 

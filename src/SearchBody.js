@@ -1,6 +1,6 @@
 import React from 'react';
-import {StyleSheet, Text, View, Platform, Image, ScrollView, Dimensions, ImageBackground} from 'react-native';
-import {Button, Header, Item, Icon, Input, ListItem, List} from 'native-base';
+import {StyleSheet, Text, View, Image, ScrollView, Dimensions, ImageBackground} from 'react-native';
+import {ListItem, List} from 'native-base';
 
 var height = Dimensions.get('window').height;
 var width = Dimensions.get('window').width;

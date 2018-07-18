@@ -1,6 +1,5 @@
 import React from 'react';
-import {StyleSheet, Text, View, Platform, Image} from 'react-native';
-import {Button, Header, Item, Icon, Input} from 'native-base';
+import {StyleSheet, View, Image} from 'react-native';
 
 export default class PokeLoader extends React.Component {
     render() {

@@ -1,6 +1,6 @@
 import React from 'react';
-import {StyleSheet, Text, View, Platform, Image} from 'react-native';
-import {Button, Header, Item, Icon, Input} from 'native-base';
+import {StyleSheet, View} from 'react-native';
+import {Header, Item, Input, Icon, Button, Text} from 'native-base';
 import PokeLoader from "./PokeLoader";
 import SearchBody from "./SearchBody";
 import axios from 'axios';
@@ -46,14 +46,12 @@ export default class Landing extends React.Component {
                 rounded
                 >
                     <Item>
-                        <Icon name="ios-search" onPress={this.searchPoke}/>
-                        <Input
-                            value={this.state.pokeSearch}
-                            placeholder="Search Pokemon"
-                            onChangeText={(pokeSearch)=>this.setState({pokeSearch})}
-                        />
+                        {/*<Icon name="ios-search" onPress={this.searchPoke}/>*/}
+                        <Input placeholder="Search"/>
                     </Item>
-
+                    <Button transparent onPress={this.searchPoke}>
+                        <Text>Search</Text>
+                    </Button>
                 </Header>
                 {this.renderBody()}
             </View>
